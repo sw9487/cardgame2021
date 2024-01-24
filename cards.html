@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--編碼-->
+        <meta charset="utf-8">
+        <!--基本資訊-->
+        <meta name="description" content="CardGame2021|制服卡牌遊戲|cards"/>
+        <meta name="keywords" content="CardGame2021|制服卡牌遊戲|cards"/>
+        <meta name="author" content="周瑋"/>
+        <!--視口設定-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <!--標題-->
+        <title>CardGame2021|制服卡牌遊戲|cards</title>
+
+        <!--引用css檔案-->
+        <link rel="stylesheet" href="cssBase.css"/>
+        <!--引用js檔案-->
+        <script src="links.js"></script>
+        <script src="js/cards/Cards.js"></script>
+
+    </head>
+    <body>
+        <div id="top">
+            <img src="images/all/top.png"
+                width="device-width">
+
+            <h1 class="title">CardGame2021|制服卡牌遊戲</h1>
+            <h3 class="subtitle">cards</h3>
+        </div>
+        <!--menu-->
+        <div id="menu">
+            <div class="menu_buttons">
+                <!--回首頁-->
+                <img class="icon_img menu_img"
+                src="images/all/home.png"
+                type="button" 
+                onclick="HomePageLink()">
+            </div>
+
+            <p>001-050</p>
+
+            <div class="menu_buttons">
+                <!--Card No.001-010-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO001-010.png"
+                type="button"
+                onclick="showCards('card001_010'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.011-020-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO011-020.png"
+                type="button"
+                onclick="showCards('card011_020'),showEffect('effect')">
+            </div>
+
+            <p>051-100</p>
+
+            <div class="menu_buttons">
+                <!--Card No.051-060-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO051-060.png"
+                type="button"
+                onclick="showCards('card051_060'),showEffect('effect')">
+            </div>
+            <div class="menu_buttons">
+                <!--Card No.061-070-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO061-070.png"
+                type="button"
+                onclick="showCards('card061_070'),showEffect('effect')">
+            </div>
+            <div class="menu_buttons">
+                <!--Card No.071-080-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO071-080.png"
+                type="button"
+                onclick="showCards('card071_080'),showEffect('effect')">
+            </div>
+            <div class="menu_buttons">
+                <!--Card No.081-090-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO081-090.png"
+                type="button"
+                onclick="showCards('card081_090'),showEffect('effect')">
+            </div>
+            <div class="menu_buttons">
+                <!--Card No.091-100-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO091-100.png"
+                type="button"
+                onclick="showCards('card091_100'),showEffect('effect')">
+            </div>
+
+            <p>101-150</p>
+
+            <div class="menu_buttons">
+                <!--Card No.101-110-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO101-110.png"
+                type="button"
+                onclick="showCards('card101_110'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.111-120-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO111-120.png"
+                type="button"
+                onclick="showCards('card111_120'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.121-130-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO121-130.png"
+                type="button"
+                onclick="showCards('card121_130'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.131-140-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO131-140.png"
+                type="button"
+                onclick="showCards('card131_140'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.141-150-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO141-150.png"
+                type="button"
+                onclick="showCards('card141_150'),showEffect('effect')">
+            </div>
+
+            <p>151-200</p>
+
+            <div class="menu_buttons">
+                <!--Card No.151-160-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO151-160.png"
+                type="button"
+                onclick="showCards('card151_160'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.161-170-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO161-170.png"
+                type="button"
+                onclick="showCards('card161_170'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.171-180-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO171-180.png"
+                type="button"
+                onclick="showCards('card171_180'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.181-190-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO181-190.png"
+                type="button"
+                onclick="showCards('card181_190'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.191-200-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO191-200.png"
+                type="button"
+                onclick="showCards('card191_200'),showEffect('effect')">
+            </div>
+
+            <p>201-250</p>
+
+            <div class="menu_buttons">
+                <!--Card No.201-210-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO201-210.png"
+                type="button"
+                onclick="showCards('card201_210'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.211-220-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO211-220.png"
+                type="button"
+                onclick="showCards('card211_220'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.221-230-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO221-230.png"
+                type="button"
+                onclick="showCards('card221_230'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.231-240-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO231-240.png"
+                type="button"
+                onclick="showCards('card231_240'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.241-250-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO241-250.png"
+                type="button"
+                onclick="showCards('card241_250'),showEffect('effect')">
+            </div>
+
+            <p>251-300</p>
+
+            <div class="menu_buttons">
+                <!--Card No.251-260-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO251-260.png"
+                type="button"
+                onclick="showCards('card251_260'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.261-270-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO261-270.png"
+                type="button"
+                onclick="showCards('card261_270'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.271-280-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO271-280.png"
+                type="button"
+                onclick="showCards('card271_280'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.281-290-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO281-290.png"
+                type="button"
+                onclick="showCards('card281_290'),showEffect('effect')">
+            </div>
+
+            <div class="menu_buttons">
+                <!--Card No.291-300-->
+                <img class="icon_img menu_img"
+                src="images/cards/NO291-300.png"
+                type="button"
+                onclick="showCards('card291_300') ,showEffect('effect')">
+            </div>
+
+
+
+            <div class="menu_buttons">
+                <!--back to top-->
+                <br/>
+                <img class="icon_img menu_img"
+                src="images/all/back_to_top.png"
+                type="button"
+                onclick="pageScroll()">
+            </div>
+
+            </div>
+
+        <!--card effect field-->
+        <div id="card_effect">
+            <img src="images/cards/card_effect.png"
+            width="300"
+            style="display: block;
+            border-radius: 10px 10px 0px 0px;">
+            <img src="images/cards/effect_field.png"
+            width="300"
+            style="display: block;">
+
+            <div id="effect_field">effect</div>
+            </div>
+
+        <!--main-->
+        <div id="main">
+
+            <!--001-050-->
+
+            <div id="card001_010">
+                <!--Card NO.001-010-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_003.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_004.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_005.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_006.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_007.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_008.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_009.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/001_010/Preset_010.png"
+                onclick="showEffect('effect')">
+
+               </div>
+            <div id="card011_020" style="display: none;">
+                <!--Card NO.011-020-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/KLGSH_011.png"
+                onclick="showEffect('若此卡上下左右沒有卡牌的場合，依序適用①②效果：\n①在場上隨機位置設置1張[KLGSH-006]。\n②隨機將我方1張手牌的數值全部變為9。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/KHGS_011.png"
+                onclick="showEffect('若場上原持有權為我方的卡牌數量在3張以下的場合，獲得場上全部原持有權為我方的卡牌的持有權，並將那些卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/CJSHS_011.png"
+                onclick="showEffect('依序適用①②③效果：\n①將我方手牌中全部稀有度為SSR卡牌的數值全部變為1。\n②將我方手牌中全部稀有度為UR卡牌的數值全部變為3。\n③將我方手牌中全部稀有度為SP卡牌的數值全部變為5。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/SGGS_011.png"
+                onclick="showEffect('(永續)\n場上的此卡不會被無效。\n雙方回合開始時， 若場上的卡牌數量在4張以上的場合，將1張[SGGS-005]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/KGHS_011.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張效果無效的[KGHS-011]加入我方手牌。\n②執行X次以下效果：隨機獲得場上1張對方卡牌的持有權\n(X為場上[KGHS-008]的數量+1)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/YMJH.KH_011.png"
+                onclick="showEffect('若此卡上下左右沒有卡牌的場合，隨機使用①②其中1個效果：\n①在此卡左方或右方設置1張[YMJH.KH-006]。\n②在此卡上方或下方設置1張[YMJH.KH-007]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/SHJH.NTPC_011.png"
+                onclick="showEffect('隨機使用①②其中1個效果：\n①將此卡視為[SHJH.NTPC-004]，並將1張[SHJH.NTPC-005]加入我方手牌。\n②將此卡視為[SHJH.NTPC-005]，並將1張[SHJH.NTPC-004]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/Preset_011.png"
+                onclick="showEffect('2021/11/17慶祝FB粉絲團創立。\n依序適用①②效果：\n①獲得10金幣。\n②將此卡的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/JMGSH_011.png"
+                onclick="showEffect('依序適用①②③④效果：\n①將1張[JMGSH- 005]加入我方手牌。\n②將場上全部卡牌的計數器移除，在此卡和我方手牌中全部[JMGSH-005]各放置X個計數器\n(X為移除的計數器的數量)。\n③將此卡的數值全部翻倍。\n④隨機使用⑤⑥其中1個效果：\n⑤將此卡視為[JMGSH-006]。\n⑥將此卡視為[JMGSH-007]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/011_020/TNVS_011.png"
+                onclick="showEffect('依序適用①②③效果：\n①將此卡左方相鄰的卡牌變為[TNVS-003]。\n②將1張效果無效的[TNVS-010]加入我方手牌。\n③隨機將雙方各1張手牌賦予④效果。\n④此卡不會被無效。')">
+
+               </div>
+
+            <!--051-100-->
+
+            <div id="card051_060" style="display: none;">
+                <!--Card NO.051-060-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_003.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_004.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_005.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_006-1.png"
+                onclick="showEffect('若我方全部手牌的數值全部在3以上的場合，依序適用①②效果：\n①將我方全部手牌的數值全部-2。\n②隨機恢復1張效果被無效的我方手牌的效果。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_007-1.png"
+                onclick="showEffect('若我方全部手牌的數值全部在3以上的場合，依序適用①②效果：\n①將我方全部手牌的數值全部-2。\n②隨機將場上1張永續卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_008.png"
+                onclick="showEffect('若此卡的數值全部為1的場合，將場上全部永續卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_009.png"
+                onclick="showEffect('若此卡的數值全部為3的場合，獲得此卡上下左右相鄰卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/051_060/CJSHS_010.png"
+                onclick="showEffect('若此卡的數值全部為5的場合，將我方全部手牌的數值全部變為9，並將那些卡牌的效果無效。')">
+
+               </div>
+            <div id="card061_070" style="display: none;">
+                <!--Card NO.061-070-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_003-1.png"
+                onclick="showEffect('若場上永續卡牌數量在3張以上且我方手牌數量為0的場合，隨機獲得場上1張對方卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_004.png"
+                onclick="showEffect('若我方手牌KCFC系列卡牌數量在3張以上的場合，將對方全部手牌的數值全部-2。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_005.png"
+                onclick="showEffect('若我方手牌KCFC系列卡牌數量在3張以上的場合，將我方全部手牌的數值全部+2。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_006.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若場上的卡牌數量在4張以上的場合，依序適用①②效果：\n①隨機將對方1張手牌的數值全部變為1。\n②將此卡的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_007.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若場上的卡牌數量在4張以上的場合，依序適用①②效果：\n①隨機將我方1張手牌的數值全部變為9。\n②將此卡的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_008.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若場上的卡牌數量在6張以上的場合，依序適用①②效果：\n①隨機將對方1張手牌的效果無效。\n②將此卡的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_009.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若場上的卡牌數量在6張以上的場合，依序適用①②效果：\n①隨機將我方手牌中1張效果被無效的卡牌的效果恢復。\n②將此卡的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/061_070/KCFC_010.png"
+                onclick="showEffect('若我方手牌KCFC系列卡牌數量在2張以上的場合，依序適用①②效果：\n①將我方全部手牌的效果無效，並將此卡的持有權轉讓給對方。\n②跳過對方下個回合。')">
+
+               </div>
+            <div id="card071_080" style="display: none;">
+                <!--Card NO.071-080-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_003.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_004-1.png"
+                onclick="showEffect('若我方場上卡牌數量比對方場上卡牌數量少的場合，將對方全部手牌的數值全部-1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_005-1.png"
+                onclick="showEffect('若我方場上卡牌數量比對方場上卡牌數量少的場合，將我方全部手牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_006.png"
+                onclick="showEffect('(永續)\n雙方回合開始時， 將此卡的持有權變回原持有者方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_007.png"
+                onclick="showEffect('若我方場上卡牌數量比對方場上卡牌數量少的場合，隨機將雙方各1張手牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_008.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將我方1張手牌變為[DMHS-009]。\n②若我方場上卡牌數量比對方場上卡牌數量少的場合，將此卡變為[DMHS-006]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_009.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將我方1張手牌變為[DMHS-008]。\n②若我方場上卡牌數量比對方場上卡牌數量少的場合，將此卡變為[DMHS-006]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/071_080/DMHS_010.png"
+                onclick="showEffect('若我方場上卡牌數量比對方場上卡牌數量少的場合，依序適用①②效果：\n①隨機獲得對方場上原持有權為我方的1張卡牌的持有權。\n②將我方全部手牌的數值全部+2。')">
+
+               </div>
+            <div id="card081_090" style="display: none;">
+                <!--Card NO.081-090-->
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_004-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將場上全部卡牌的數值全部+3。\n②將場上全部卡牌的計數器全部移除。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_005.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將雙方各1張手牌的數值全部變為9。\n②將那些卡牌的計數器全部移除。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_006.png"
+                onclick="showEffect('若此卡上下左右沒有卡牌的場合，將此卡的數值全部變為9。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_007.png"
+                onclick="showEffect('若場上KLGSH系列卡牌數量在3張以上的場合，依序適用①②效果：\n①隨機獲得場上1張效果未被無效的永續卡牌的持有權。\n②將那張卡牌的數值全部變為9，並將那張卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_008.png"
+                onclick="showEffect('若場上KLGSH系列卡牌數量在3張以上的場合，依序適用①②效果：\n①隨機將對方1張手牌的數值全部變為9，並將那張卡牌的效果無效。\n②將此卡的數值全部變為9。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_009.png"
+                onclick="showEffect('(永續)\n場上的此卡不會被無效。\n雙方回合開始時， 依序適用①②效果：\n①將此卡的持有權變回原持有者方。\n②將場上全部卡牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/081_090/KLGSH_010.png"
+                onclick="showEffect('依序適用①②效果：\n①將場上全部KLGSH系列卡牌的數值全部+3。\n②獲得場上全部數值全部為9的卡牌的持有權。')">
+
+               </div>
+            <div id="card091_100" style="display: none;">
+                <!--Card NO.091-100-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_003-1.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將場上1張效果未被無效的永續卡牌的數值全部變為1，並將那張卡牌的效果無效。\n②將此卡的數值全部變為1，並將此卡的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_004-1.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機獲得場上1張對方卡牌的持有權。\n②將此卡的數值全部變為1，並將此卡的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_005-1.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將對方1張手牌的數值全部變為1。\n②將此卡的數值全部變為1，並將此卡的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_006.png"
+                onclick="showEffect('(永續)\n對方回合開始時，隨機將我方場上1張卡牌的數值全部變為1，並將那張卡牌的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_007.png"
+                onclick="showEffect('依序適用①②效果：\n①將場上全部卡牌的數值全部變為1。\n②將此卡的數值全部變為1，並將此卡的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_008.png"
+                onclick="showEffect('依序適用①②效果：\n①獲得場上全部數值全部為1的卡牌的持有權。\n②將此卡的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_009.png"
+                onclick="showEffect('若場上的卡牌數量在6張以下的場合，將場上全部卡牌的持有權對調。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/091_100/KHGS_010.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機獲得場上最多3張對方卡牌的持有權。\n②將此卡的數值全部變為1，並將此卡的持有權轉讓給對方。')">
+
+               </div>
+
+            <!--101-150-->
+
+            <div id="card101_110" style="display: none;">
+                <!--Card NO.101-110-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_004-1.png"
+                onclick="showEffect('將我方手牌中全部HSNU系列卡牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_005-1.png"
+                onclick="showEffect('將場上全部非HSNU系列卡牌的數值全部-1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_006.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機獲得場上1張對方永續卡牌的持有權。\n②隨機使用③④其中一個效果：\n③隨機將場上1張HSNU系列卡牌的數值全部+1。\n④隨機將場上1張非HSNU系列卡牌的數值全部-1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_007.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，隨機選擇我方1張手牌，依情況適用①或②的效果：\n①若那張卡牌為HSNU系列，將那張卡牌的數值全部+2。\n②若那張卡牌非HSNU系列，將那張卡牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_008.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若此卡上下左右相鄰卡牌的鄰近數值比此卡小的場合，獲得那些卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_009.png"
+                onclick="showEffect('(永續)\n場上的此卡不會被無效。\n雙方回合開始時，依序適用①②效果：\n①將此卡的持有權變回原持有者方。\n②隨機將場上此卡以外1張HSNU系列卡牌的數值全部+2。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/101_110/HSNU_010.png"
+                onclick="showEffect('(永續)\n場上的此卡不會被無效。\n雙方回合開始時，依序適用①②效果：\n①隨機將我方1張手牌的數值全部+1。\n②將場上全部HSNU系列卡牌的數值全部+1。')">
+
+               </div>
+            <div id="card111_120" style="display: none;">
+                <!--Card NO.111-120-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_003.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_004-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_005-1.png"
+                onclick="showEffect('①隨機將場上除此卡外最多2張卡牌的數值全部隨機重設\n(數值範圍為1~9)。\n若我方場上存在[INHS-008]的場合，追加②效果。\n②獲得那些卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_006.png"
+                onclick="showEffect('①隨機將對方1張手牌的數值全部隨機重設\n(數值範圍為1~9)。\n若我方場上存在[INHS-008]的場合，將①效果變為：\n將那張卡牌的數值全部變為1，並將那張卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_007.png"
+                onclick="showEffect('①隨機將我方1張手牌的數值全部隨機重設\n(數值範圍為1~9)。\n若我方場上存在[INHS-008]的場合，將①效果變為：\n隨機將我方最多2張手牌的數值全部隨機重設\n(數值範圍為5~7)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_008.png"
+                onclick="showEffect('(永續)\n雙方回合開始時， 依序適用①②效果：\n①將此卡的持有權變回原持有者方。\n②將此卡的數值全部隨機重設\n(數值範圍為1~9)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_009.png"
+                onclick="showEffect('①將場上全部永續卡牌的數值全部變為1。\n若我方場上存在[INHS-008]的場合，追加②效果。\n②將那些卡牌的效果無效，並獲得那些卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/111_120/INHS_010.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張[INHS-005]加入我方手牌。\n②將此卡視為 [INHS-008]。')">
+
+               </div>
+            <div id="card121_130" style="display: none;">
+                <!--Card NO.121-130-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_003.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_004.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_005-1.png"
+                onclick="showEffect('隨機使用①②其中1個效果：\n①隨機將我方1張手牌的數值全部+1。\n②隨機將對方1張手牌的數值全部-1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_006-1.png"
+                onclick="showEffect('將此卡變為[SGGS-005]，在那之後，將1張[SGGS-005]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_007-1.png"
+                onclick="showEffect('若我方手牌數量在3張以下的場合，盡可能將[SGGS-005]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_008.png"
+                onclick="showEffect('依序適用①②效果：\n①若我方手牌中[SGGS-005]的數量在2張以上的場合，破壞我方手牌1張[SGGS-005]，將場上全部永續卡牌的效果無效。\n②若場上[SGGS-005]的數量在1張以上的場合，將此卡變為[SGGS- 005]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_009.png"
+                onclick="showEffect('依序適用①②效果：\n①若我方手牌中[SGGS-005]的數量在2張以上的場合，破壞我方手牌1張[SGGS-005]，隨機將對方1張手牌的效果無效。\n②若場上[SGGS-005]的數量在2張以上的場合，隨機將對方1張手牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/121_130/SGGS_010.png"
+                onclick="showEffect('依序適用①②效果：\n①若我方手牌中[SGGS-005]的數量在2張以上的場合，破壞我方手牌1張[SGGS-005]，獲得此卡上下左右相鄰卡牌的持有權。\n②若場上[SGGS-005]的數量在2張以上的場合，將我方全部手牌的數值全部變為6。')">
+
+               </div>
+            <div id="card131_140" style="display: none;">
+                <!--Card NO.131-140-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_003.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_004-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_005-1.png"
+                onclick="showEffect('將1張[HWSH.TC-005]加入雙方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_006.png"
+                onclick="showEffect('①將此卡左下方的卡牌的效果無效。\n若場上存在[HWSH.TC-005]的場合，將①效果影響的範圍擴大至左方及下方相鄰的卡牌。\n若我方手牌存在[HWSH.TC-005]的場合，將①效果影響的範圍擴大至右上方的卡牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_007.png"
+                onclick="showEffect('①將此卡左下方的卡牌的效果無效。\n若場上存在[HWSH.TC-005]的場合，將①效果變為：\n獲得那張卡牌的持有權。\n若我方手牌存在[HWSH.TC-005]的場合，將①效果影響的範圍擴大至右上方的卡牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_008.png"
+                onclick="showEffect('依情況適用①或②的效果：\n①若場上沒有[HWSH.TC-005]的場合，將此卡的持有權轉讓給對方，在此卡左方或下方設置1張[HWSH.TC-005]。\n②若場上存在[HWSH.TC-005]的場合，隨機將場上1張永續卡牌變為[HWSH.TC-005]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_009.png"
+                onclick="showEffect('①若場上有2張以上[HWSH.TC-005]的場合，將此卡左上方、右上方、左下方、右下方卡牌的效果無效。\n若我方手牌存在[HWSH.TC-005]的場合，追加②效果。\n②獲得那些卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/131_140/HWSH.TC_010.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將場上1張卡與此卡相異的卡牌變為[HWSH.TC-005]，並將此卡變為[HWSH.TC-005]。\n②將1張[HWSH.TC-005]加入我方手牌，並將我方全部手牌的數值全部翻倍。')">
+
+               </div>
+            <div id="card141_150" style="display: none;">
+                <!--Card NO.141-150-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_002-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_003-1.png"
+                onclick="showEffect('①隨機將對方1張手牌變為[KGHS-003]。\n若我方手牌全部都為KGHS系列的場合，將①效果變為：\n隨機將對方1張手牌變為[KGHS-008]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_004-1.png"
+                onclick="showEffect('①隨機將我方手牌中1張效果被無效的卡牌的效果恢復。\n若我方手牌全部都為KGHS系列的場合，將①效果變為：\n隨機將我方手牌中最多2張效果被無效的卡牌的效果恢復。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_005-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將我方手牌中全部效果被無效的卡牌的效果恢復。\n②將此卡的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_006.png"
+                onclick="showEffect('①隨機將我方1張手牌的數值全部+X\n(X為我方場上卡牌數量)。\n若我方手牌全部都為KGHS系列的場合，將①效果變為：\n隨機將我方1張手牌的數值全部翻倍。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_007.png"
+                onclick="showEffect('①隨機將對方1張手牌的數值全部-X\n(X 為對方場上卡牌數量)。\n若我方手牌全部都為KGHS系列的場合，將①效果變為：\n隨機將對方1張手牌的數值全部減半\n(無條件捨去)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_008.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，隨機將我方手牌中1張效果被無效的卡牌賦予①效果。\n①此卡不會被無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_009.png"
+                onclick="showEffect('若我方手牌全部都為KGHS系列的場合，依序適用①②效果：\n①隨機破壞場上最多2張KGHS系列以外的永續卡牌，並將最多X張[KGHS-008]加入雙方手牌\n(X為被破壞卡牌數量)。\n②將此卡視為[KGHS-008]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/141_150/KGHS_010.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張效果無效的[KGHS-010]加入我方手牌。\n②執行X次以下效果：\n隨機將對方1張手牌的效果無效\n(X為場上[KGHS-008]的數量+1)。')">
+
+               </div>
+
+            <!--151-200-->
+
+            <div id="card151_160" style="display: none;">
+                <!--Card NO.151-160-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_004.png"
+                onclick="showEffect('隨機將場上1張與此卡相異的卡牌變為此卡，並將那張卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_005.png"
+                onclick="showEffect('隨機將我方1張手牌變為此卡，並將那張卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_006-1.png"
+                onclick="showEffect('若此卡左右相鄰卡牌的鄰近數值比此卡小的場合，將那些卡牌變為此卡，並將那些卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_007-1.png"
+                onclick="showEffect('若此卡上下相鄰卡牌的鄰近數值比此卡小的場合，將那些卡牌變為此卡，並將那些卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_008.png"
+                onclick="showEffect('若場上我方卡牌中有相同卡牌的場合，將場上除此卡外全部我方卡牌變為此卡，並將那些卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_009.png"
+                onclick="showEffect('(永續)\n對方回合開始時， 依序適用①②效果：\n①隨機將我方場上1張與此卡相異的非永續卡牌變為此卡，並將那張卡牌的效果無效。\n②將此卡的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/151_160/YMJH.KH_010.png"
+                onclick="showEffect('若場上我方卡牌中有相同卡牌的場合，隨機將對方最多2張手牌變為此卡，並將那些卡牌的效果無效。')">
+
+               </div>
+            <div id="card161_170" style="display: none;">
+                <!--Card NO.161-170-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_004-1.png"
+                onclick="showEffect('①將1張[SHJH.NTPC-005]加入我方手牌。\n若場上存在[SHJH.NTPC-005]的場合，追加②效果。\n②隨機將對方1張手牌的效果無效，並將那張卡牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_005-1.png"
+                onclick="showEffect('①將1張[SHJH.NTPC-004]加入我方手牌。\n若場上存在[SHJH.NTPC-004]的場合，追加②效果。\n②隨機將場上最多2張卡牌的效果無效，並將那些卡牌的數值全部+2。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_006.png"
+                onclick="showEffect('若我方手牌或場上存在[SHJH.NTPC-004]和[SHJH.NTPC-005]的場合，隨機選擇場上1張永續卡牌，依序適用①②效果：\n①複製場上的那張卡牌，並加入雙方手牌。\n②破壞場上的那張卡牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_007.png"
+                onclick="showEffect('若我方手牌或場上存在[SHJH.NTPC-004]和[SHJH.NTPC-005]的場合，依序適用①②效果：\n①將場上全部效果被無效卡牌的數值全部-1。\n②獲得那些卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_008.png"
+                onclick="showEffect('若我方手牌或場上存在[SHJH.NTPC-004]和[SHJH.NTPC-005]的場合，依序適用①②效果：\n①將場上全部永續卡牌的效果無效。\n②將1張[SHJH.NTPC-007]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_009.png"
+                onclick="showEffect('①隨機將對方1張手牌的效果無效。\n若我方手牌或場上存在[SHJH.NTPC-004]和[SHJH.NTPC-005]的場合，將①效果變為：\n隨機將最多2張對方手牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/161_170/SHJH.NTPC_010.png"
+                onclick="showEffect('①隨機獲得場上1張對方卡牌的持有權，並將那張卡牌的效果無效。\n若我方手牌或場上存在[SHJH.NTPC-004]和[SHJH.NTPC-005]的場合，將①效果變為：\n隨機獲得場上最多2張對方卡牌的持有權，並將那張卡牌的效果無效。 ')">
+
+               </div>
+            <div id="card171_180" style="display: none;">
+                <!--Card NO.171-180-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_004.png"
+                onclick="showEffect('依序適用①②③效果：\n①將最多2張[SKGSH-003]加入我方手牌。\n②若此卡上的計數器在6個以上的場合，獲得此卡上下相鄰卡牌的持有權。                 ③將此卡視為 [SKGSH-007]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_005-1.png"
+                onclick="showEffect('依序適用①②③效果：\n①在我方手牌中全部[SKGSH-003]各放置1個計數器。\n②將1張[SKGSH-003]加入雙方手牌。\n③將此卡視為[SKGSH-007]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_006-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將雙方手牌中全部[SKGSH-003]變為[SKGSH-004]，並保留那張卡牌上的計數器。\n②將此卡視為[SKGSH-007]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_007.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，\n依序適用①②效果：\n①在雙方手牌中全部[SKGSH-003]各放置1個計數器。\n②若那張卡牌上的計數器在6個以上的場合，將那張卡牌變為[SKGSH-004]，並保留那張卡牌上的計數器。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_008.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機複製場上1張永續卡牌，並加入我方手牌。\n②將1張[SKGSH-008]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_009.png"
+                onclick="showEffect('若我方手牌中[SKGSH-004]的數量在4張以上的場合，破壞此卡上下左右相鄰的卡牌，並將最多X張[SKGSH-003]加入雙方手牌\n(X為破壞的卡牌張數)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/171_180/SKGSH_010.png"
+                onclick="showEffect('依序適用①②效果：\n①將最多2張[SKGSH-003]加入我方手牌。\n②若我方手牌中有相同卡牌的場合，隨機將對方1張手牌的數值全部變為1，並將那張卡牌的效果無效。')">
+
+               </div>
+            <div id="card181_190" style="display: none;">
+                <!--Card NO.181-190-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_004-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_005-1.png"
+                onclick="showEffect('隨機將我方1張手牌的數值全部翻倍。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_006.png"
+                onclick="showEffect('將場上全部我方卡牌轉讓給對方，並隨機將對方最多X張手牌的數值全部變為3\n(X為轉讓的卡牌張數)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_007.png"
+                onclick="showEffect('將場上全部我方卡牌轉讓給對方，並隨機將對方最多X張手牌的效果無效\n(X為轉讓的卡牌張數)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_008.png"
+                onclick="showEffect('依序適用①②效果：\n①若場上我方卡牌只有1張的場合，將此卡的數值全部翻倍。\n②將此卡視為[CCHS.KH-009]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_009.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，依序適用①②效果：\n①將此卡的數值全部+1。\n②若此卡全部數值為9的場合，將場上全部卡牌的持有權變為此卡的原持有者方，並將此卡的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/181_190/CCHS.KH_010.png"
+                onclick="showEffect('若場上我方卡牌只有1張的場合，依序適用①②效果：\n①破壞場上與此卡相同縱列、相同橫排全部卡牌和雙方全部手牌，並重新生成雙方手牌。\n②將我方手牌中全部[CCHS.KH-010]的效果無效，並跳過對方下個回合。')">
+
+               </div>
+            <div id="card191_200" style="display: none;">
+                <!--Card NO.191-200-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_002-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_003-1.png"
+                onclick="showEffect('將此卡的持有權轉讓給對手。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_004-1.png"
+                onclick="showEffect('將我方手牌中全部稀有度為SP卡牌上的計數器翻倍。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_005.png"
+                onclick="showEffect('(永續)\n場上的此卡不會被無效。\n雙方回合開始時，依序適用①②③效果：\n①將1張[TFG-003]加入我方手牌。\n②在我方手牌全部[TFG-003]或稀有度為SP的卡牌各放置1個計數器。\n③將此卡的持有權變回原持有者方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_006.png"
+                onclick="showEffect('(永續)\n場上的此卡不會被無效。\n雙方回合開始時，依序適用①②③效果：\n①將我方手牌全部計數器在3個以上的[TFG-003]隨機變為[TFG-007]或[TFG- 008]，並保留那張卡牌上的計數器。\n②在我方手牌全部[TFG-003]或稀有度為SP的卡牌各放置1個計數器。\n③將此卡的持有權變回原持有者方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_007.png"
+                onclick="showEffect('依序適用①②效果：\n①在我方手牌全部稀有度為SP卡牌上各放置4個計數器。\n②若此卡上的計數器在3個以上的場合，破壞此卡左右相鄰的卡牌，並將最多X張[TFG-003]加入雙方手牌\n(X為被破壞卡片數量)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_008.png"
+                onclick="showEffect('依序適用①②效果：\n①在我方手牌全部稀有度為SP卡牌上各放置4個計數器。\n②若此卡上的計數器在3個以上的場合，獲得此卡左右相鄰卡牌的持有權，並將此卡的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_009.png"
+                onclick="showEffect('依序適用①②③效果：\n①將此卡的數值全部+X\n(X為此卡上的計數器數量)。\n②將此卡左右相鄰卡牌的效果無效。\n③若此卡上的計數器在12個以上的場合，將1張[TFG-003]加入雙方手牌，並跳過對方下個回合。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/191_200/TFG_010.png"
+                onclick="showEffect('依序適用①②③效果：\n①將此卡的數值全部+X\n(X為此卡上的計數器數量)。\n②若此卡上的計數器為20個的場合，破壞場上除此卡以外全部卡牌和雙方全部手牌，並重新生成雙方手牌。\n③將雙方全部手牌的效果無效，並將那些卡牌的數值全部重設\n(數值範圍為1~9)。')">
+
+               </div>
+
+            <!--201-250-->
+
+            <div id="card201_210" style="display: none;">
+                <!--Card NO.201-210-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_004-1.png"
+                onclick="showEffect('依序適用①②效果：\n①在場上全部卡牌和雙方全部手牌各放置2個計數器。\n②將1張[JMGSH-004]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_005-1.png"
+                onclick="showEffect('若此卡上的計數器在15個以上的場合，依序適用①②效果：\n①破壞場上除此卡外全部卡牌和雙方全部手牌，並重新生成對方手牌。\n②複製對方牌組，並將那些卡牌加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_006.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，依情況適用①或②的效果：\n①若此卡上的計數器在6個以下的場合，在此卡放置2個計數器。\n②若此卡上的計數器在7個以上的場合，移除此卡上的3個計數器，並隨機獲得場上1張對方卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_007.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，依情況適用①或②的效果：\n①若此卡上的計數器在6個以下的場合，在此卡放置2個計數器。\n②若此卡上的計數器在7個以上的場合，移除此卡上的3個計數器，並隨機將對方1張手牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_008.png"
+                onclick="showEffect('(永續)\n場上的此卡不會被無效。\n雙方回合開始時，依序適用①②效果：\n①若此卡上的計數器在15個以下的場合，將此卡的持有權轉讓給對手，並在此卡放置2個計數器。\n②隨機將我方手牌中1張效果被無效的卡牌的效果恢復，並在那張卡牌放置2個計數器。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_009.png"
+                onclick="showEffect('依序適用①②③效果：\n①將雙方全部手牌的效果無效。\n②將此卡的數值全部翻倍。\n③將此卡視為[JMGSH-008]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/201_210/JMGSH_010.png"
+                onclick="showEffect('依序適用①②③④效果：\n①在場上全部永續卡牌各放置3個計數器。\n②在此卡放置7個計數器。\n③將此卡的數值全部翻倍。\n④隨機使用⑤⑥其中1個效果：\n⑤將此卡視為[JMGSH-006]。\n⑥將此卡視為[JMGSH-007]。')">
+
+               </div>
+            <div id="card211_220" style="display: none;">
+                <!--Card NO.211-220-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_004-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_005-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡上下左右相鄰卡牌的數值全部變為4。\n②隨機將對方1張手牌的數值全部-X\n(X為對方手牌的數量)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_006-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡上下左右相鄰卡牌的數值全部變為4。\n②將那些卡牌上的計數器全部移除。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_007.png"
+                onclick="showEffect('依序適用①②效果：\n①若此卡上下左右相鄰卡牌的鄰近數值和此卡相同的場合，將那些卡牌變為此卡，並將那些卡牌的效果無效。\n②將此卡的數值全部+X\n(X為此卡上下左右相鄰卡牌的數量)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_008.png"
+                onclick="showEffect('依序適用①②③效果：\n①將此卡上下左右相鄰卡牌的數值全部變為4。\n②若場上存在[JHS-009]的場合，將1張[JHS-010]加入我方手牌。\n③隨機將對方1張手牌的數值全部變為4，並將那張卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_009.png"
+                onclick="showEffect('依序適用①②③效果：\n①若此卡上下左右相鄰卡牌的鄰近數值和此卡相同的場合，獲得那些卡牌的持有權，並將那些卡牌的效果無效。\n②若場上存在[JHS-008]的場合，將1張[JHS-010]加入我方手牌。\n③將此卡的數值全部+X\n(X為此卡上下左右相鄰卡牌的數量)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/211_220/JHS_010.png"
+                onclick="showEffect('依序適用①②③④效果：\n①將此卡上下左右相鄰卡牌的數值全部變為4。\n②將1張[JHS-008]加入我方手牌。\n③將1張[JHS-009]加入我方手牌。\n④將此卡的數值全部+X\n(X為此卡上下左右相鄰卡牌的數量)。')">
+
+               </div>
+            <div id="card221_230" style="display: none;">
+                <!--Card NO.221-230-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_004-1.png"
+                onclick="showEffect('若場上CPSH.HCC系列卡牌數量在3張以下的場合，依序適用①②效果：\n①將此卡的數值全部翻倍。\n②隨機將對方1張手牌的數值全部-1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_005-1.png"
+                onclick="showEffect('若場上CPSH.HCC系列卡牌數量在3張以下的場合，依序適用①②效果：\n①隨機將場上1張對方卡牌變為此卡，並將那張卡牌的效果無效。\n②將此卡的持有權轉讓給對手。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_006.png"
+                onclick="showEffect('若場上CPSH.HCC系列卡牌數量在3張以上的場合，將我方全部手牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_007.png"
+                onclick="showEffect('若場上CPSH.HCC系列卡牌數量在3張以上的場合，將我方全部手牌賦予①效果。\n①此卡不會被無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_008.png"
+                onclick="showEffect('①隨機將場上1張對方永續卡牌的效果無效。\n若場上CPSH.HCC系列卡牌數量在3張以上的場合，將①效果變為：\n隨機將場上1張對方永續卡牌的效果無效，並獲得那張卡牌的持有權。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_009.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，依場上CPSH.HCC系列卡牌數量，依序適用①~⑤的效果：\n①2張以上的場合，將此卡的數值全部變成X\n(X為場上CPSH.HCC系列卡牌數量)。\n②3張以上的場合，將場上除此卡以外全部卡牌的數值全部-1。\n③4張以上的場合，將此卡的持有權變回原持有者方。\n④5張以上的場合，若此卡上下左右相鄰卡牌的鄰近數值比此卡小的場合，獲得那些卡牌的持有權。\n⑤6張以上的場合，將對方全部手牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/221_230/CPSH.HCC_010.png"
+                onclick="showEffect('若場上CPSH.HCC系列卡牌數量在2張以上的場合，依序適用①②效果：\n①在場上隨機位置設置1張[CPSH.HCC-005]。\n②將此卡視為[CPSH.HCC-009]。')">
+
+               </div>
+            <div id="card231_240" style="display: none;">
+                <!--Card NO.231-240-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_004-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡左方相鄰卡牌的效果無效。\n②隨機恢復1張效果被無效的我方手牌的效果。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_005-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡左方相鄰卡牌的效果無效。\n②隨機將我方1張手牌的數值全部隨機重設\n(數值範圍為1~9)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_006.png"
+                onclick="showEffect('依序適用①②效果：\n①破壞此卡左方相鄰的卡牌。\n②將1張[TNVS-003]加入雙方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_007.png"
+                onclick="showEffect('依序適用①②效果：\n①獲得此卡左方相鄰卡牌的持有權。\n②將雙方手牌中全部被賦予/此卡不會被無效/的卡牌變為[TNVS- 003]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_008.png"
+                onclick="showEffect('若此卡左方沒有卡牌的場合，依序適用①②效果：\n①在此卡左方設置1張[TNVS-008]。\n②隨機將雙方各1張手牌賦予③效果。\n③此卡不會被無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_009.png"
+                onclick="showEffect('若我方手牌數量在2張以下的場合，依序適用①②③效果：\n①將1張[TNVS-006]加入我方手牌。\n②將1張[TNVS-007]加入我方手牌。\n③將1張[TNVS-008]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/231_240/TNVS_010.png"
+                onclick="showEffect('依序適用①②效果：\n①若此卡上下左右相鄰卡牌的鄰近數值和此卡相同的場合，獲得那些卡牌的持有權。\n②將對方手牌中全部被賦予/此卡不會被無效/的卡牌的數值全部變為3。')">
+
+               </div>
+            <div id="card241_250" style="display: none;">
+                <!--Card NO.241-250-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_003.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_004-1.png"
+                onclick="showEffect('將對方手牌中全部效果被無效的卡牌的數值全部-1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_005-1.png"
+                onclick="showEffect('將我方手牌中全部效果被無效的卡牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_006.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張效果被無效的[SMGSH-004]加入雙方手牌。\n②將此卡上下相鄰的卡牌變為[SMGSH-009]，並將那些卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_007.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張效果被無效的[SMGSH-005]加入雙方手牌。\n②將此卡左右相鄰的卡牌變為[SMGSH-009]，並將那些卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_008.png"
+                onclick="showEffect('依序適用①②效果：\n①將我方手牌中全部SMGSH系列卡牌的數值全部+2。\n②將我方手牌中全部非SMGSH系列卡牌的數值全部變為1，並將那些卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_009.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機破壞場上1張對方永續卡牌，並將1張效果無效的[SMGSH-010]加入雙方手牌。\n②隨機將對方最多2張手牌的數值全部-1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/241_250/SMGSH_010.png"
+                onclick="showEffect('依序適用①②效果：\n①破壞場上全部[SMGSH-009]，並將最多X張效果無效的[SMGSH-009]加入雙方手牌\n(X為被破壞卡牌數量)。\n②隨機將對方最多2張手牌的數值全部-1。')">
+
+               </div>
+
+            <!--251-300-->
+
+            <div id="card251_260" style="display: none;">
+                <!--Card NO.251-260-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_004-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_005-1.png"
+                onclick="showEffect('依序適用①②③效果：\n①將此卡的數值全部+X\n(X為我方手牌中TNGS系列卡牌數量)。\n②破壞我方全部手牌，並重新生成我方手牌。\n③將場上全部[TNGS-008]的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_006.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡的數值全部+X\n(X為我方手牌中TNGS系列卡牌數量)。\n②將對方全部手牌的數值全部-1，將我方全部手牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_007.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡的數值全部+X\n(X為我方手牌中TNGS系列卡牌數量)。\n②將場上對方全部卡牌的數值全部-1，將場上我方全部卡牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_008.png"
+                onclick="showEffect('(永續)\n場上的此卡不會被無效。\n雙方回合開始時，依情況適用①或②的效果：\n①若我方手牌全部都為TNGS系列的場合，將1張效果被無效的[TNGS-005]加入我方手牌。\n②若我方手牌中有非TNGS系列的場合，將我方手牌中全部非TNGS系列卡牌變為[TNGS-005]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_009.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡的數值全部+X\n(X為我方手牌中TNGS系列卡牌數量)。\n②若此卡上下左右相鄰卡牌的鄰近數值比此卡小的場合，破壞那些卡，並將X張效果被無效的[TNGS-005]加入雙方手牌\n(X為被破壞卡片數量)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/251_260/TNGS_010.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡的數值全部+X\n(X為我方手牌中TNGS系列卡牌數量)。\n②若此卡上下左右相鄰卡牌的鄰近數值比此卡小的場合，獲得那些卡牌的持有權，並將那些卡牌的效果無效。')">
+
+               </div>
+            <div id="card261_270" style="display: none;">
+                <!--Card NO.261-270-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_004-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張[DCVS-004]加入我方手牌。\n②將雙方手牌中全部有放置計數器的卡牌的數值全部-2。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_005-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張[DCVS-005]加入我方手牌。\n②將雙方手牌中全部有放置計數器的卡牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_006.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張[DCVS-006]加入我方手牌。\n②隨機在對方最多2張手牌各放置5個計數器。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_007.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡的數值全部翻倍。\n②隨機複製場上1張對方卡牌，並加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_008.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡的數值全部翻倍。\n②隨機複製場上1張我方卡牌，並加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_009.png"
+                onclick="showEffect('依序適用①②效果：\n①將1張[DCVS-009]加入我方手牌。\n②隨機將我方最多2張手牌的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/261_270/DCVS_010.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將我方1張手牌和此卡的數值全部+X(X為場上[DCVS-010]的數量)。\n②若此卡上下左右沒有卡牌的場合，在場上隨機位置設置1張[DCVS-010]。')">
+
+               </div>
+            <div id="card271_280" style="display: none;">
+                <!--Card NO.271-280-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_004-1.png"
+                onclick="showEffect('隨機使用①②其中1個效果：\n①將對方全部手牌的數值全部+3。\n②將此卡變為[XFHS-010]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_005-1.png"
+                onclick="showEffect('將場上我方全部永續卡牌的持有權轉讓給對方。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_006.png"
+                onclick="showEffect('依序適用①②效果：\n①將我方手牌中全部永續卡牌的數值全部-1。\n②將我方手牌中全部永續卡牌的稀有度變為SP。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_007.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若此卡的持有權非原持有者方的場合，依序適用①②③④效果：\n①隨機將對方1張手牌的數值全部翻倍。\n②將此卡的持有權變回原持有者方。\n③將此卡的數值全部+1。\n④若此卡的稀有度非SP的場合，將此卡的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_008.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若此卡的持有權非原持有者方的場合，依序適用①②③④效果：\n①隨機將我方1張手牌的數值全部減半\n(無條件捨去)。\n②將此卡的持有權變回原持有者方。\n③將此卡的數值全部+1。\n④若此卡的稀有度非SP的場合，將此卡的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_009.png"
+                onclick="showEffect('依序適用①②效果：\n①將此卡的持有權轉讓給對方。\n②隨機使用③④其中1個效果：\n③將此卡視為[XFHS-007]。\n④將此卡視為[XFHS-008]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/271_280/XFHS_010.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若此卡的持有權非原持有者方的場合，依序適用①②③效果：\n①隨機將我方1張手牌的數值全部-3，並將那張卡牌的效果無效。\n②將此卡的持有權變回原持有者方。\n③將此卡的數值全部+1。')">
+
+               </div>
+            <div id="card281_290" style="display: none;">
+                <!--Card NO.281-290-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_004-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將場上我方全部卡牌的數值全部+1。\n②將1張[WZU-005]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_005-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將場上對方全部卡牌的數值全部-1。\n②將1張[WZU-004]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_006-1.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將我方1張手牌的數值全部+2。\n②將1張[WZU-007]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_007-1.png"
+                onclick="showEffect('依序適用①②效果：\n①隨機將我方最多2張手牌的數值全部+1。\n②將1張[WZU-006]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_008.png"
+                onclick="showEffect('依情況適用①或②或③的效果：\n①若場上[WZU-008]的數量為1張的場合，隨機將我方1張手牌變為[WZU-008]，並將那張卡牌的數值全部變為5。\n②若場上[WZU-008]的數量為2張的場合，將對方全部手牌變為[WZU-008]。\n③若場上[WZU-008]的數量在3張以上的場合，破壞我方全部手牌，並重新生成我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_009.png"
+                onclick="showEffect('依序適用①②效果：\n①將場上全部WZU系列卡牌的數值全部翻倍。\n②若我方手牌WZU系列卡牌數量在2張以上的場合，將1張[WZU-008]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/281_290/WZU_010.png"
+                onclick="showEffect('依序適用①②效果：\n①破壞場上全部被賦予/此卡不會被無效/的永續卡牌和雙方全部手牌，並重新生成雙方手牌。\n②將我方手牌中全部[WZU-010]變為[WZU-009]，並將我方手牌中全部[WZU-009]的數值全部變為5。')">
+
+               </div>
+            <div id="card291_300" style="display: none;">
+                <!--Card NO.291-300-->
+                
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_001.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_002.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_003-1.png"
+                onclick="showEffect('effect')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_004-1.png"
+                onclick="showEffect('隨機將對方1張手牌的效果無效。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_005-1.png"
+                onclick="showEffect('依序適用①②效果：\n①將對方手牌中全部被賦予/此卡不會被無效/的卡牌的賦予效果移除。\n②將1張[CTS-004]加入我方手牌。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_006.png"
+                onclick="showEffect('(永續)\n雙方回合開始時，若此卡上下左右相鄰卡牌有[CTS-006]的場合，依序適用①②效果：\n①將此卡的持有權變回原持有者方。\n②將此卡的數值全部+1。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_007.png"
+                onclick="showEffect('若此卡上下左右相鄰卡牌有[CTS-006]的場合，隨機將我方最多2張手牌的數值全部翻倍。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_008.png"
+                onclick="showEffect('若此卡上下左右相鄰卡牌有[CTS-006]的場合，隨機將對方最多2張手牌的數值全部減半\n(無條件捨去)。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_009.png"
+                onclick="showEffect('若此卡上下左右相鄰卡牌有[CTS-006]的場合，依序適用①②效果：\n①將場上全部被賦予/此卡不會被無效/的卡牌的賦予效果移除，並將那些卡牌的效果無效。\n②將此卡視為 [CTS-006]。')">
+
+                <img class="card_img"
+                src="images/cards/cardsPic/291_300/CTS_010.png"
+                onclick="showEffect('若此卡上下左右相鄰卡牌有[CTS-006]的場合，依序適用①②效果：\n①獲得此卡左上方、右上方、左下方、右下方卡牌的持有權。\n②將此卡視為[CTS-006]。')">
+
+               </div>
+
+            <!--301-350-->
+
+        </div>
+
+
+    
+    </body>
+</html>

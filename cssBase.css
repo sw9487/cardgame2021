@@ -1,0 +1,95 @@
+body{
+    height: 1500px;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+div#top{
+
+}
+
+div#top img{
+    max-height:100%;
+}
+
+.title{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subtitle{
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div#menu{
+    margin-top: 5px;
+    float: left;
+    border: 5px solid #808080;
+}
+
+div#menu p{
+    text-align: center;
+}
+
+.menu_img:hover{
+    opacity: 80%;
+}
+
+.icon_img{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.card_img{
+    margin-top:5px;
+    width: 160px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.card_img:hover{
+    opacity: 80%;
+}
+
+div#main{
+    align-content: center;
+    position: absolute;
+
+    margin-top: 5px;
+    margin-left: 220px;
+    width: 900px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 5px solid #808080;
+}
+
+div#card_effect{
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 1150px;
+    float: right;
+    border: 5px solid #808080;
+}
+
+div#effect_field{
+    position: absolute;
+    top: 90px;
+    left: 15px;
+    color: #ffffff;
+    margin:5px 15px 5px 0px;
+}
+
+div#fb_fan_page{
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 1150px;
+    float: right;
+    border: 5px solid #808080;
+}
